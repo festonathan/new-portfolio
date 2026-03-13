@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Projects | Festo Mwakondo</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container navbar">
+      <a class="brand" href="index.html">Festo Mwakondo</a>
+      <button class="menu-toggle" aria-label="Toggle navigation"><span></span></button>
+      <nav class="nav-links">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="resume.html">Resume</a>
+        <a class="active" href="projects.html">Projects</a>
+        <a href="portfolio.html">Portfolio</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="page-hero container">
+      <h1>Projects</h1>
+      <p>A collection of my development projects</p>
+      <div class="filter-bar">
+        <button class="filter-btn active" data-filter="all">All</button>
+        <button class="filter-btn" data-filter="web">Web</button>
+        <button class="filter-btn" data-filter="iot">IoT</button>
+        <button class="filter-btn" data-filter="dashboard">Dashboard</button>
+      </div>
+    </section>
+
+    <section class="section" style="padding-top: 0;">
+      <div class="container project-grid">
+        <article class="project-card" data-category="web">
+          <div class="project-icon">&lt;/&gt;</div>
+          <h3>Personal Portfolio Website</h3>
+          <p>Built using HTML and CSS with a focus on clean design and usability.</p>
+          <div class="tags">
+            <span class="tag">HTML</span>
+            <span class="tag">CSS</span>
+            <span class="tag">Web Design</span>
+          </div>
+          <a class="text-link" href="portfolio.html">View details</a>
+        </article>
+
+        <article class="project-card" data-category="iot">
+          <div class="project-icon">⌘</div>
+          <h3>Raspberry Pi Greenhouse Monitoring System</h3>
+          <p>Team project using sensors and a dashboard to track greenhouse environmental conditions.</p>
+          <div class="tags">
+            <span class="tag">Raspberry Pi</span>
+            <span class="tag">Python</span>
+            <span class="tag">Sensors</span>
+            <span class="tag">IoT</span>
+          </div>
+          <a class="text-link" href="portfolio.html">View details</a>
+        </article>
+
+        <article class="project-card" data-category="dashboard">
+          <div class="project-icon">⌁</div>
+          <h3>Streamlit Dashboard Prototype</h3>
+          <p>Designed a dashboard interface to display sensor data and greenhouse zone monitoring.</p>
+          <div class="tags">
+            <span class="tag">Streamlit</span>
+            <span class="tag">Python</span>
+            <span class="tag">Data Visualization</span>
+          </div>
+          <a class="text-link" href="portfolio.html">View details</a>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-links">
+        <a href="mailto:fmwakond@kent.edu">fmwakond@kent.edu</a>
+        <a href="https://www.linkedin.com/in/festo-mwakondo-205a75371/" target="_blank" rel="noreferrer">LinkedIn</a>
+        <a href="https://github.com/festonathan" target="_blank" rel="noreferrer">GitHub</a>
+      </div>
+      <div class="footer-copy">&copy; <span data-year></span> Festo Mwakondo. All rights reserved.</div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
